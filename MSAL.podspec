@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "MSAL/src/*.{h,m}", "MSAL/src/**/*.{h,m}"
+  s.prefix_header_file = "MSAL/src/MSAL.pch"
   s.public_header_files = "MSAL/src/public/*.h", "MSAL/src/public/**/*.h"
 
   s.requires_arc = true
